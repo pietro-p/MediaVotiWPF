@@ -38,10 +38,10 @@
         <Label Content="Max" Grid.Column="1" HorizontalAlignment="Left" Margin="429,191,0,0" VerticalAlignment="Top" Foreground="#FFECC43E" FontSize="16" FontWeight="Bold" Width="57"/>
         <Label x:Name="lblMin" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="502,146,0,0" VerticalAlignment="Top" Width="98"/>
         <Label x:Name="lblMax" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="502,191,0,0" VerticalAlignment="Top" Height="33" Width="98"/>
-        <Label x:Name="lblIncidenza1" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="296,106,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblIncidenza2" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="296,155,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblIncidenza3" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="296,198,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblIncidenza4" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="296,244,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblIncidenza1" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="296,104,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblIncidenza2" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="296,150,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblIncidenza3" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="296,195,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblIncidenza4" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="296,243,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

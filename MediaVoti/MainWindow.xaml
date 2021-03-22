@@ -13,9 +13,9 @@
         </Grid.ColumnDefinitions>
         <Label Content="Voti Informatica&#xD;&#xA;" HorizontalAlignment="Left" Margin="36,43,0,0" VerticalAlignment="Top" Width="176" Height="36" FontSize="20" FontWeight="Bold" Foreground="#FF2682DE" Grid.Column="1" FontStyle="Italic"/>
         <Label Content="Compito 1&#xD;&#xA;" HorizontalAlignment="Left" Margin="55,101,0,0" VerticalAlignment="Top" Width="91" FontSize="16" FontWeight="Bold" Height="40" Foreground="#FFECC43E" Grid.ColumnSpan="2"/>
-        <Label Content="Compito 2&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="55,146,0,0" VerticalAlignment="Top" Width="91" Height="36" FontSize="16" FontWeight="Bold" Foreground="#FFECC43E" Grid.ColumnSpan="2"/>
-        <Label Content="Compito 3&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="55,190,0,0" VerticalAlignment="Top" Height="39" Width="91" FontSize="16" FontWeight="Bold" Foreground="#FFECC43E" Grid.ColumnSpan="2"/>
-        <Label Content="Compito 4" HorizontalAlignment="Left" Margin="55,237,0,0" VerticalAlignment="Top" Height="29" Width="91" FontSize="16" FontWeight="Bold" Foreground="#FFECC43E" Grid.ColumnSpan="2"/>
+        <Label Content="Compito 2&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="55,164,0,0" VerticalAlignment="Top" Width="91" Height="36" FontSize="16" FontWeight="Bold" Foreground="#FFECC43E" Grid.ColumnSpan="2"/>
+        <Label Content="Compito 3&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="55,230,0,0" VerticalAlignment="Top" Height="39" Width="91" FontSize="16" FontWeight="Bold" Foreground="#FFECC43E" Grid.ColumnSpan="2"/>
+        <Label Content="Compito 4" HorizontalAlignment="Left" Margin="55,299,0,0" VerticalAlignment="Top" Height="29" Width="91" FontSize="16" FontWeight="Bold" Foreground="#FFECC43E" Grid.ColumnSpan="2"/>
         <Label Content="Incidenza %&#xD;&#xA;" HorizontalAlignment="Left" Margin="261,44,0,0" VerticalAlignment="Top" Width="124" Height="35" FontSize="20" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" Foreground="#FF2682DE" Grid.Column="1" FontStyle="Italic">
             <Label.RenderTransform>
                 <TransformGroup>
@@ -26,22 +26,22 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label Content="Media" HorizontalAlignment="Left" Margin="427,98,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Foreground="#FFECC43E" Height="32" Grid.Column="1"/>
-        <Label x:Name="lblMedia" Content="" HorizontalAlignment="Left" Margin="502,98,0,0" VerticalAlignment="Top" Width="98" Height="31" FontSize="14" Grid.Column="1"/>
+        <Label Content="Media" HorizontalAlignment="Left" Margin="427,103,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Foreground="#FFECC43E" Height="32" Grid.Column="1"/>
+        <Label x:Name="lblMedia" Content="" HorizontalAlignment="Left" Margin="502,104,0,0" VerticalAlignment="Top" Width="98" Height="31" FontSize="14" Grid.Column="1" Foreground="#FF2682DE" FontStyle="Italic" FontWeight="Bold"/>
         <TextBox x:Name="txtCompito1" HorizontalAlignment="Left" Margin="87,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" Grid.Column="1"/>
-        <TextBox x:Name="txtCompito2" HorizontalAlignment="Left" Margin="87,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" Grid.Column="1"/>
-        <TextBox x:Name="txtCompito4" HorizontalAlignment="Left" Margin="87,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" Grid.Column="1"/>
-        <TextBox x:Name="txtCompito3" HorizontalAlignment="Left" Margin="87,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" Grid.Column="1"/>
-        <Button Content="Calcola" HorizontalAlignment="Left" Margin="429,247,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click" Height="22" FontSize="14" Grid.Column="1"/>
-        <Label x:Name="lblRisposta" Content="" HorizontalAlignment="Left" Margin="368,306,0,0" VerticalAlignment="Top" Width="351" FontSize="16" Grid.Column="1"/>
-        <Label Content="Min" Grid.Column="1" HorizontalAlignment="Left" Margin="429,143,0,0" VerticalAlignment="Top" Foreground="#FFECC43E" FontSize="16" FontWeight="Bold" Width="57"/>
-        <Label Content="Max" Grid.Column="1" HorizontalAlignment="Left" Margin="429,191,0,0" VerticalAlignment="Top" Foreground="#FFECC43E" FontSize="16" FontWeight="Bold" Width="57"/>
-        <Label x:Name="lblMin" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="502,146,0,0" VerticalAlignment="Top" Width="98"/>
-        <Label x:Name="lblMax" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="502,191,0,0" VerticalAlignment="Top" Height="33" Width="98"/>
-        <Label x:Name="lblIncidenza1" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="296,104,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblIncidenza2" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="296,150,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblIncidenza3" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="296,195,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblIncidenza4" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="296,243,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCompito2" HorizontalAlignment="Left" Margin="87,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" Grid.Column="1"/>
+        <TextBox x:Name="txtCompito4" HorizontalAlignment="Left" Margin="87,307,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" Grid.Column="1"/>
+        <TextBox x:Name="txtCompito3" HorizontalAlignment="Left" Margin="87,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14" Grid.Column="1"/>
+        <Button Content="Calcola" HorizontalAlignment="Left" Margin="436,311,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click" Height="22" FontSize="14" Grid.Column="1"/>
+        <Label x:Name="lblRisposta" Content="" HorizontalAlignment="Left" Margin="427,354,0,0" VerticalAlignment="Top" Width="299" FontSize="16" Grid.Column="1" FontStyle="Italic" FontWeight="Bold" Foreground="#FF2682DE"/>
+        <Label Content="Min" Grid.Column="1" HorizontalAlignment="Left" Margin="429,167,0,0" VerticalAlignment="Top" Foreground="#FFECC43E" FontSize="16" FontWeight="Bold" Width="57"/>
+        <Label Content="Max" Grid.Column="1" HorizontalAlignment="Left" Margin="429,236,0,0" VerticalAlignment="Top" Foreground="#FFECC43E" FontSize="16" FontWeight="Bold" Width="57"/>
+        <Label x:Name="lblMin" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="502,170,0,0" VerticalAlignment="Top" Width="98" FontStyle="Italic" FontWeight="Bold" Foreground="#FF2682DE"/>
+        <Label x:Name="lblMax" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="502,237,0,0" VerticalAlignment="Top" Height="33" Width="98" FontStyle="Italic" FontWeight="Bold" Foreground="#FF2682DE"/>
+        <Label x:Name="lblIncidenza1" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="301,104,0,0" VerticalAlignment="Top" Foreground="#FF2682DE"/>
+        <Label x:Name="lblIncidenza2" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="301,169,0,0" VerticalAlignment="Top" Foreground="#FF2682DE"/>
+        <Label x:Name="lblIncidenza3" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="301,236,0,0" VerticalAlignment="Top" Foreground="#FF2682DE"/>
+        <Label x:Name="lblIncidenza4" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="301,304,0,0" VerticalAlignment="Top" Foreground="#FF2682DE"/>
 
     </Grid>
 </Window>

@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using Operazioni;
 namespace MediaVoti
 {
     /// <summary>
@@ -44,22 +44,15 @@ namespace MediaVoti
                     double somma = compito1 + compito2 + compito3 + compito4;
                     double media = somma / COMPITI;
                     lblMedia.Content = media;
-                    double min = Math.Min(compito1,(Math.Min(compito2,(Math.Min(compito3, compito4)))));
+                    double min = Math.Min(compito1, (Math.Min(compito2, (Math.Min(compito3, compito4)))));
                     double max = Math.Max(compito1, (Math.Max(compito2, (Math.Max(compito3, compito4)))));
                     lblMin.Content = min;
                     lblMax.Content = max;
-                    double incidenza1 = (compito1 / somma) * 100;
-                    double incidenza2 = (compito2 / somma) * 100;
-                    double incidenza3 = (compito3 / somma) * 100;
-                    double incidenza4 = (compito4 / somma) * 100;
-                    lblIncidenza1.Content = incidenza1;
-                    lblIncidenza2.Content = incidenza2;
-                    lblIncidenza3.Content = incidenza3;
-                    lblIncidenza4.Content = incidenza2;
-                    if (media >= 6)
-                        lblRisposta.Content = "Studente PROMOSSO";
-                    else
-                        lblRisposta.Content = "Studente BOCCIATO";
+                    lblIncidenza1.Content = Gestione.IncidenzaPercentuale(compito1, somma);
+                    lblIncidenza2.Content = Gestione.IncidenzaPercentuale(compito2, somma);
+                    lblIncidenza3.Content = Gestione.IncidenzaPercentuale(compito3, somma);
+                    lblIncidenza4.Content = Gestione.IncidenzaPercentuale(compito4, somma);
+                    lblRisposta.Content = Gestione.Esito(media);
                 }
                 else
                 {
